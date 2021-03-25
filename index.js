@@ -19,7 +19,7 @@ const questions = [
 {
   type:"input", 
   name:"table",
-  message:"Wite A Table Of Contents"
+  message:"Write A Table Of Contents"
 },
 {
   type:"input", 
@@ -36,7 +36,7 @@ const questions = [
   type:"list", 
   name:"license",
   message:"Which license would you like to use for this project?",
-  choices:["Apache", "Boost", "Mit", "Mozilla"]
+  choices:["Apache", "Boost", "MIT", "Mozilla"]
 },
 {
   type:"input", 
@@ -45,7 +45,7 @@ const questions = [
 },
 {
   type:"input", 
-  name:"title",
+  name:"test",
   message:"Test Instructions?"
 },
 {
@@ -74,12 +74,14 @@ return fs.writeFileSync(path.join(process.cwd(), fileName), data)
 
 // TODO: Create a function to initialize app
 function init() {
-  inquirer.prompt(questions).then((userAnwser) => {
+  inquirer.prompt(questions).then((userAnwsers) => {
+    console.log(" currently creating your readme! ")
     writeToFile("Readme.md", generateMarkdown({
-      ...userAnwser
+      ...userAnwsers
     }))
   })
 }
 
 // Function call to initialize app
 init();
+
