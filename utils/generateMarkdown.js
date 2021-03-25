@@ -33,60 +33,61 @@ function returnLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
-  
-  ${returnLicenseBadge(data.license)}
+return `
+# ${data.title}
 
-  ## Project Title
+${returnLicenseBadge(data.license)}
 
-  ${data.title}
+## Project Title
 
-  ## Discription 
+${data.title}
 
-  ${data.discription}
+## Discription 
 
-  ## Table of Contents
+${data.discription}
 
-  * [Installation](#installation)
-  * [use](#usage)
-  * [license](#license)
-  * [contributors](#contributors)
-  * [test](#test)
-  * [questions](#questions)
-  * [username](#username)
-  
+## Table of Contents
 
-  ## installation
+* [Installation](#installation)
+* [use](#usage)
+* [license](#license)
+* [contributors](#contributors)
+* [test](#test)
+* [questions](#questions)
+* [username](#username)
 
-  please install the following dependencies: 
 
-  \`\`\`
-  ${data.installation}
-  \`\`\`
+## installation
 
-  ## Usage
+please install the following dependencies: 
 
-  ${data.usage}
+\`\`\`
+${data.installation}
+\`\`\`
 
-  ## Contributors
+## Usage
 
-  ${data.contributors}
+${data.usage}
 
-  ## Test Instructions
+## Contributors
 
-  ${data.test}
+${data.contributors}
 
-  ## Questions
+## Test Instructions
 
-  ${data.questions}
+${data.test}
 
-  ## GitHub Username
+## Questions
 
-  ${data.username}
+${data.questions}
 
-  ## email
+## GitHub Username
 
-  ${data.email}
+${data.username}
+
+## email
+
+${data.email}
 
   
 `;
