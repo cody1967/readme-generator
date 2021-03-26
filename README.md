@@ -1,15 +1,15 @@
 
-# sdfg
+# ReadME Generator
 
-![GitHub license](https://img.shields.io/badge/license-Apache-yellow.svg)
+![GitHub license](https://img.shields.io/badge/license-MIT-yellow.svg)
 
 ## Project Title
 
-sdfg
+ReadME Generator
 
 ## Discription 
 
-sdfg
+Automatically Generates a readme file
 
 ## Table of Contents
 
@@ -27,31 +27,31 @@ sdfg
 please install the following dependencies: 
 
 ```
-dsfg
+none
 ```
 
 ## Usage
 
-dsfg
+any repositiory  readme doc
 
 ## Contributors
 
-
+cody
 
 ## Test Instructions
 
-asdfg
+try it out
 
 ## Questions
 
-afdsg
+no questions at this time
 
 ## GitHub Username
 
-afdsg
+cody1967
 
 ## email
 
-afdg
+cody@utahhydrographics.com
 
   
